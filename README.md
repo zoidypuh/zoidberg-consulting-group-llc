@@ -1,6 +1,6 @@
 # Zoidberg Consulting Group LLC
 
-A modern, futuristic consulting firm website built with React, TypeScript, and Vite. Features a unique Zoidberg-inspired logo and professional design.
+A modern, futuristic consulting firm website built with React, TypeScript, and Vite.
 
 ## 🚀 Features
 
