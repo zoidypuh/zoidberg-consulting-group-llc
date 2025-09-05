@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#1B263B" stroke="#415A77" stroke-width="4"/>
+  
+  <!-- Financial chart bars -->
+  <g transform="translate(64, 64)">
+    <!-- Bar 1 -->
+    <rect x="-35" y="-10" width="12" height="30" fill="#60A5FA" rx="2">
+      <animate attributeName="height" values="30;35;30" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-10;-15;-10" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Bar 2 -->
+    <rect x="-18" y="-20" width="12" height="40" fill="#34D399" rx="2">
+      <animate attributeName="height" values="40;45;40" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-20;-25;-20" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Bar 3 -->
+    <rect x="-1" y="-25" width="12" height="45" fill="#60A5FA" rx="2">
+      <animate attributeName="height" values="45;50;45" dur="3s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-25;-30;-25" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Bar 4 -->
+    <rect x="16" y="-35" width="12" height="55" fill="#34D399" rx="2">
+      <animate attributeName="height" values="55;60;55" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-35;-40;-35" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Arrow trend line -->
+  <path d="M 30 75 L 50 55 L 70 60 L 90 40" fill="none" stroke="#FF6B6B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="90,40 85,45 88,42 85,38" fill="#FF6B6B"/>
+  
+  <!-- Dollar sign overlay -->
+  <text x="64" y="90" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#E0E1DD" text-anchor="middle" opacity="0.8">$</text>
+</svg>
