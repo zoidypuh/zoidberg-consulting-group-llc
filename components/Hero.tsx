@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Logo from './Logo';
 
 const Hero: React.FC = () => {
   return (
@@ -14,9 +13,6 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-brand-primary opacity-70"></div>
       </div>
       <div className="relative z-10 px-6 animate-fade-in-up">
-        <div className="mb-6 animate-bounce-slow">
-          <Logo size={120} className="mx-auto drop-shadow-2xl" />
-        </div>
         <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-4">
           Synergizing Tomorrow's <span className="text-brand-light">Paradigms</span>, Today.
         </h1>

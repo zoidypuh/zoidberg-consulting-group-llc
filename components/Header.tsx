@@ -1,6 +1,5 @@
 
 import React, { useState, useEffect } from 'react';
-import Logo from './Logo';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,9 +25,8 @@ const Header: React.FC = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-primary/80 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <a href="#" className="flex items-center gap-3 group">
-            <Logo size={40} className="transition-transform duration-300 group-hover:scale-110" />
-            <span className="text-2xl font-black tracking-wider text-brand-text">ZCG</span>
+          <a href="#" className="text-2xl font-black tracking-wider text-brand-text">
+            ZCG
           </a>
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
