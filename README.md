@@ -1,20 +1,69 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Zoidberg Consulting Group LLC
 
-# Run and deploy your AI Studio app
+A modern, futuristic consulting firm website built with React, TypeScript, and Vite. Features a unique Zoidberg-inspired logo and professional design.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1KnQx3ilT5NyczvWoPASTCaUhxTTaJnKN
+- Modern React application with TypeScript
+- Vite for fast development and building
+- Responsive design with Tailwind CSS
+- Custom animated SVG logo
+- Smooth scroll navigation
+- Professional consulting firm layout
 
-## Run Locally
+## 🛠️ Technologies
 
-**Prerequisites:**  Node.js
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS (integrated via CDN)
+- SVG animations
 
+## 📦 Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/zoidberg-consulting-group-llc.git
+cd zoidberg-consulting-group-llc
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and visit `http://localhost:5173`
+
+## 🏗️ Build
+
+To build for production:
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+## 🎨 Components
+
+- **Logo**: Custom SVG logo inspired by Zoidberg's characteristics
+- **Header**: Fixed navigation with smooth scroll
+- **Hero**: Eye-catching landing section with animated logo
+- **Solutions**: Service offerings
+- **Vision**: Company vision and mission
+- **About**: Company information
+- **Contact**: Contact form and information
+- **Footer**: Company details and links
+
+## 📄 License
+
+This project is proprietary and confidential.
