@@ -2,9 +2,8 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Solutions from './components/Solutions';
-import Vision from './components/Vision';
 import About from './components/About';
+import Solutions from './components/Solutions';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -14,9 +13,8 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
-        <Solutions />
-        <Vision />
         <About />
+        <Solutions />
         <Contact />
       </main>
       <Footer />

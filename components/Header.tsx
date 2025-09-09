@@ -15,9 +15,8 @@ const Header: React.FC = () => {
   }, []);
 
   const navLinks = [
-    { href: '#solutions', label: 'Solutions' },
-    { href: '#vision', label: 'Vision' },
     { href: '#about', label: 'About Us' },
+    { href: '#services', label: 'What We Do' },
     { href: '#contact', label: 'Contact' },
   ];
 
@@ -36,7 +35,7 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <a href="#contact" className="hidden md:block bg-brand-accent hover:bg-brand-light text-white font-bold py-2 px-4 rounded-lg transition duration-300">
-            Engage
+            Contact Us
           </a>
         </div>
       </div>

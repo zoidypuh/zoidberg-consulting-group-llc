@@ -6,9 +6,9 @@ const Contact: React.FC = () => {
     <section id="contact" className="py-20 bg-brand-secondary">
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-in">
-          <h2 className="text-4xl font-bold text-white mb-4">Let's Synergize</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Contact</h2>
           <p className="text-lg text-brand-light max-w-2xl mx-auto mb-8">
-            Ready to revolutionize your enterprise? Reach out to our strategists to begin architecting your future success. Let's build a dynamic, value-driven partnership.
+            For inquiries regarding Zoidberg Consulting Group LLC, please contact us via email.
           </p>
           <a
             href="mailto:info@zoidbergcg.com"
